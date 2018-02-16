@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="Keywords" content="HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Web development,W3C,tutorials,programming,training,learning,quiz,primer,lessons,references,examples,source code,colors,demos,tips">
-		<meta name="Description" content="Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, and XML.">
+		<meta name="Keywords" content="Bootstrap,HTML,CSS,JavaScript,Web development,source code,demos">
+		<meta name="Description" content="">
 		<link rel="icon" href="img/Bootstrap_logo.ico">
 		<title>Landing page using Bootstrap 3 | by Susana Piñero</title>
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -12,7 +12,7 @@
 		<link rel="stylesheet" type="text/css" href="css/mystyle.css">
 		<link rel="icon" href="img/Boostrap_logo.ico">
 	</head>
-	<body>
+	<body data-spy="scroll" data-target=".navbar" data-offset="420">
 		<div class="header">
 			<header>
 				<div class="container text-center">
@@ -23,7 +23,7 @@
 					</div>
 				</div>
 			</header>
-			<nav class="navbar navbar-inverse">
+			<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="420">
 				<div class="container-fluid">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -107,13 +107,62 @@
 							</div>
 						</div>
 					</div>
-
-
 				</div>
 			</nav>
 		</div>
 		<section>
-			<article>
+			<article class="description">
+				<h4>Descripción de la empresa</h4>
+				<a href="#" data-toggle="modal" data-target="#modalRest01"><img src="img/restaurant-01.jpg" class="img-rounded img-restaurant-right" alt="Interior del restaurant"></a>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate pulvinar ipsum vitae lobortis. Mauris porttitor pulvinar arcu, 
+					<a href="#" data-toggle="modal" data-target="#modalRest02"><img src="img/restaurant-02.jpg" class="img-rounded img-restaurant-left" alt="Vinos"></a>
+					malesuada accumsan mauris euismod quis. Lacerat maecenas ultrices enim a ultricies tincidunt. Sed 
+					<a href="#" data-toggle="modal" data-target="#modalRest03"><img src="img/restaurant-03.jpg" class="img-rounded img-restaurant-right" alt="Comida"></a>
+					rhoncus, est in condimentum lacinia, tortor neque varius neque, quis lacinia mi mauris et metus.
+					Aliquam sit amet odio quis odio blandit auctor. Mauris libero turpis, fringilla pharetra libero malesuada, lacinia pulvinar ex. Nulla efficitur nunc non mauris molestie ultrices.
+				</p>
+				<div id="modalRest01" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-body">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<img src="img/restaurant-01.jpg" class="img-rounded img-responsive" alt="Interior del restaurant">
+							</div>
+							<div class="modal-footer">
+								<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate pulvinar ipsum vitae lobortis.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="modalRest02" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-body">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<img src="img/restaurant-02.jpg" class="img-rounded img-responsive" alt="Interior del restaurant">
+							</div>
+							<div class="modal-footer">
+								<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate pulvinar ipsum vitae lobortis.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="modalRest03" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-body">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<img src="img/restaurant-03.jpg" class="img-rounded img-responsive" alt="Interior del restaurant">
+							</div>
+							<div class="modal-footer">
+								<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate pulvinar ipsum vitae lobortis.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<article class="menu">
 				
 			</article>
 		</section>
