@@ -14,7 +14,7 @@
 	</head>
 	<body data-spy="scroll" data-target=".navbar" data-offset="420">
 		<div class="header">
-			<header>
+			<header id="welcome">
 				<div class="container text-center">
 					<div class="jumbotron">
 						<h1>Landing page</h1>
@@ -35,8 +35,9 @@
 					</div>
 					<div class="collapse navbar-collapse" id="myNavbar">
 						<ul class="nav navbar-nav">
-						<li><a href="#">Bienvenida</a></li>
-						<li><a href="#">Link</a></li>
+						<li><a href="#welcome">Bienvenida</a></li>
+						<li><a href="#description">Nuestro restaurant</a></li>
+						<li><a href="#menu">Menú</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="#" data-toggle="modal" data-target="#modalSignUp"><span class="glyphicon glyphicon-user"></span> Resgistrarse</a></li>
@@ -111,7 +112,7 @@
 			</nav>
 		</div>
 		<section>
-			<article class="description">
+			<article id="description" class="description">
 				<h4>Descripción de la empresa</h4>
 				<a href="#" data-toggle="modal" data-target="#modalRest01"><img src="img/restaurant-01.jpg" class="img-rounded img-restaurant-right" alt="Interior del restaurant"></a>
 				<p>
@@ -162,8 +163,58 @@
 					</div>
 				</div>
 			</article>
-			<article class="menu">
-				
+			<article id="menu" class="menu">
+				<div class="container">
+					<h2>Menú</h2>
+					<div class="row">
+						<div class="col-xs-9 menuList jumbotron-menu">
+							<div class="panel-group" id="accordion">
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Platos</a>
+										</h4>
+									</div>
+									<div id="collapse1" class="panel-collapse collapse in">
+										<div class="panel-body">
+											<a href="#" class="list-group-item">Plato A</a>
+											<a href="#" class="list-group-item">Plato B</a>
+											<a href="#" class="list-group-item">Plato C</a>
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Postres</a>
+										</h4>
+									</div>
+									<div id="collapse2" class="panel-collapse collapse">
+										<div class="panel-body">
+											<a href="#" class="list-group-item">Postre A</a>
+											<a href="#" class="list-group-item">Postre B</a>
+											<a href="#" class="list-group-item">Postre C</a>
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Bebidas</a>
+										</h4>
+									</div>
+									<div id="collapse3" class="panel-collapse collapse">
+										<div class="panel-body">
+											<a href="#" class="list-group-item">Bebida A</a>
+											<a href="#" class="list-group-item">Bebida B</a>
+											<a href="#" class="list-group-item">Bebida C</a>
+										</div>
+									</div>
+								</div>
+							</div> 
+						</div>
+					</div>
+				</div>
 			</article>
 		</section>
 		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
