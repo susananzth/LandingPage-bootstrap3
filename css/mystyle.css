@@ -7,7 +7,7 @@ body{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	height: 70%;
+	height: 480px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -15,16 +15,17 @@ body{
 }
 header{
 	position: relative;
-	padding: 20% 0 0 0;
-	height: 85%;
+	padding: 190px 0 0 0;
+	height: 480px;
 }
 .jumbotron{
 	background-color: rgba(255, 255, 255, 0.5);
-	border-radius: 6px 6px 0 0 !important;
+	border-radius: 15px 15px 0 0 !important;
 	margin-bottom: 0;
-	height: 70%
+	height: 350px;
+	padding-top: 60px;
 }
 nav{
 	position: relative;
-	min-height: 15%;
+	min-height: 60px;
 }
