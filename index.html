@@ -115,7 +115,7 @@
 		<section>
 			<article id="description" class="description">
 				<h3>Descripción de la empresa</h3>
-				<p>
+				<p class="description-p">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 					<a href="#" data-toggle="modal" data-target="#modalRest01"><img src="img/restaurant-01.jpg" class="img-restaurant-right" alt="Interior del restaurant"></a>
 					Nam vulputate pulvinar ipsum vitae lobortis. Mauris porttitor pulvinar arcu, malesuada accumsan mauris euismod quis. 
@@ -129,7 +129,7 @@
 						<div class="modal-content">
 							<div class="modal-body">
 								<button type="button" class="close" data-dismiss="modal">&times;</button>
-								<img src="img/restaurant-01.jpg" class="img-rounded img-responsive" alt="Interior del restaurant">
+								<img src="img/restaurant-01.jpg" class="img-responsive" alt="Interior del restaurant">
 							</div>
 							<div class="modal-footer">
 								<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate pulvinar ipsum vitae lobortis.</p>
@@ -142,7 +142,7 @@
 						<div class="modal-content">
 							<div class="modal-body">
 								<button type="button" class="close" data-dismiss="modal">&times;</button>
-								<img src="img/restaurant-02.jpeg" class="img-rounded img-responsive" alt="Interior del restaurant">
+								<img src="img/restaurant-02.jpeg" class="img-responsive" alt="Interior del restaurant">
 							</div>
 							<div class="modal-footer">
 								<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate pulvinar ipsum vitae lobortis.</p>
@@ -155,7 +155,7 @@
 						<div class="modal-content">
 							<div class="modal-body">
 								<button type="button" class="close" data-dismiss="modal">&times;</button>
-								<img src="img/restaurant-03.jpeg" class="img-rounded img-responsive" alt="Interior del restaurant">
+								<img src="img/restaurant-03.jpeg" class="img-responsive" alt="Interior del restaurant">
 							</div>
 							<div class="modal-footer">
 								<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate pulvinar ipsum vitae lobortis.</p>
@@ -176,9 +176,60 @@
 							</div>
 							<div id="collapse1" class="panel-collapse collapse in">
 								<div class="panel-body">
-									<a href="#" class="list-group-item">Plato A</a>
-									<a href="#" class="list-group-item">Plato B</a>
-									<a href="#" class="list-group-item">Plato C</a>
+									<a href="#" data-toggle="modal" data-target="#modalFood01" class="list-group-item">Plato A<p class="currency">$50</p></a>
+									<a href="#" data-toggle="modal" data-target="#modalFood02" class="list-group-item">Plato B<p class="currency">$50</p></a>
+									<a href="#" data-toggle="modal" data-target="#modalFood03" class="list-group-item">Plato C<p class="currency">$50</p></a>
+								</div>
+							</div>
+						</div>
+						<div id="modalFood01" class="modal fade" role="dialog">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-body">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<img src="img/plato01.jpg" class="img-responsive" alt="Plato A">
+									</div>
+									<div class="modal-footer">
+										<p class="title-food">Plato A<p class="currency">$50</p></p>
+									</div>
+									<div class="modal-footer">
+										<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate pulvinar ipsum vitae lobortis.</p>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div id="modalFood02" class="modal fade" role="dialog">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-body">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<img src="img/plato02.jpeg" class="img-responsive" alt="Plato B">
+									</div>
+									<div class="modal-footer">
+										<p class="title-food">Plato B<p class="currency">$50</p></p>
+									</div>
+									<div class="modal-footer">
+										<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate pulvinar ipsum vitae lobortis.</p>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div id="modalFood03" class="modal fade" role="dialog">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-body">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<img src="img/plato03.jpeg" class="img-responsive" alt="Plato C">
+									</div>
+									<div class="modal-footer">
+										<p class="title-food">Plato C<p class="currency">$50</p></p>
+									</div>
+									<div class="modal-footer">
+										<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate pulvinar ipsum vitae lobortis.</p>
+									</div>
+
 								</div>
 							</div>
 						</div>
@@ -190,9 +241,60 @@
 							</div>
 							<div id="collapse2" class="panel-collapse collapse">
 								<div class="panel-body">
-									<a href="#" class="list-group-item">Postre A</a>
-									<a href="#" class="list-group-item">Postre B</a>
-									<a href="#" class="list-group-item">Postre C</a>
+									<a href="#" data-toggle="modal" data-target="#modalDessert01" class="list-group-item">Postre A<p class="currency">$50</p></a>
+									<a href="#" data-toggle="modal" data-target="#modalDessert02" class="list-group-item">Postre B<p class="currency">$50</p></a>
+									<a href="#" data-toggle="modal" data-target="#modalDessert03" class="list-group-item">Postre C<p class="currency">$50</p></a>
+								</div>
+							</div>
+						</div>
+						<div id="modalDessert01" class="modal fade" role="dialog">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-body">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<img src="img/postre01.jpeg" class="img-responsive" alt="Postre A">
+									</div>
+									<div class="modal-footer">
+										<p class="title-food">Postre A<p class="currency">$50</p></p>
+									</div>
+									<div class="modal-footer">
+										<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate pulvinar ipsum vitae lobortis.</p>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div id="modalDessert02" class="modal fade" role="dialog">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-body">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<img src="img/postre02.jpeg" class="img-responsive" alt="Postre B">
+									</div>
+									<div class="modal-footer">
+										<p class="title-food">Postre B<p class="currency">$50</p></p>
+									</div>
+									<div class="modal-footer">
+										<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate pulvinar ipsum vitae lobortis.</p>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div id="modalDessert03" class="modal fade" role="dialog">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-body">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<img src="img/postre03.jpeg" class="img-responsive" alt="Postre C">
+									</div>
+									<div class="modal-footer">
+										<p class="title-food">Postre C<p class="currency">$50</p></p>
+									</div>
+									<div class="modal-footer">
+										<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate pulvinar ipsum vitae lobortis.</p>
+									</div>
+
 								</div>
 							</div>
 						</div>
@@ -204,9 +306,60 @@
 							</div>
 							<div id="collapse3" class="panel-collapse collapse">
 								<div class="panel-body">
-									<a href="#" class="list-group-item">Bebida A</a>
-									<a href="#" class="list-group-item">Bebida B</a>
-									<a href="#" class="list-group-item">Bebida C</a>
+									<a href="#" data-toggle="modal" data-target="#modalDrink01" class="list-group-item">Bebida A<p class="currency">$50</p></a>
+									<a href="#" data-toggle="modal" data-target="#modalDrink02" class="list-group-item">Bebida B<p class="currency">$50</p></a>
+									<a href="#" data-toggle="modal" data-target="#modalDrink03" class="list-group-item">Bebida C<p class="currency">$50</p></a>
+								</div>
+							</div>
+						</div>
+						<div id="modalDrink01" class="modal fade" role="dialog">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-body">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<img src="img/bebida01.jpeg" class="img-responsive" alt="Bebida A">
+									</div>
+									<div class="modal-footer">
+										<p class="title-food">Bebida A<p class="currency">$50</p></p>
+									</div>
+									<div class="modal-footer">
+										<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate pulvinar ipsum vitae lobortis.</p>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div id="modalDrink02" class="modal fade" role="dialog">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-body">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<img src="img/bebida02.jpeg" class="img-responsive" alt="Bebida B">
+									</div>
+									<div class="modal-footer">
+										<p class="title-food">Bebida B<p class="currency">$50</p></p>
+									</div>
+									<div class="modal-footer">
+										<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate pulvinar ipsum vitae lobortis.</p>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div id="modalDrink03" class="modal fade" role="dialog">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-body">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<img src="img/bebida03.jpeg" class="img-responsive" alt="Bebida C">
+									</div>
+									<div class="modal-footer">
+										<p class="title-food">Bebida C<p class="currency">$50</p></p>
+									</div>
+									<div class="modal-footer">
+										<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate pulvinar ipsum vitae lobortis.</p>
+									</div>
+
 								</div>
 							</div>
 						</div>
