@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	height: 480px;
+	height: 485px;
 	position: relative;
 	top: 0;
 	left: 0;
@@ -48,12 +48,31 @@ header h3{
 	height: 270px;
 	padding-top: 60px;
 }
-nav{
-	min-height: 60px;
+ul{
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+}
+.navbar {
+	margin-bottom: 0px;
+	-webkit-box-shadow: 1px 1px 3px 1px rgba(166,166,166,1);
+	-moz-box-shadow: 1px 1px 3px 1px rgba(166,166,166,1);
+	box-shadow: 1px 1px 3px 1px rgba(166,166,166,1);
 }
 .navbar-default {
     background-color: #c5a68c;
     border: 0;
+}
+.navbar-nav, .navbar-brand{
+    margin: 7.5px;
+}
+.navbar-brand {
+    font-size: 30px;
+}
+p {
+    margin: 0;
 }
 .navbar-default .navbar-brand {
     color: #2d2d2d;
@@ -71,9 +90,6 @@ nav{
 .navbar-default .navbar-nav>li>a {
     color: #2d2d2d;
 }
-.navbar-nav {
-    margin: 7.5px;
-}
 .navbar-default .navbar-collapse {
     border-color: #f7f7f7;
 }
@@ -82,13 +98,15 @@ nav{
     background-color: #c5a68c;
     border: 1px solid #f7f7f7;
 }
+.navbar-toggle {
+    padding: 16px 10px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
 .affix {
 	top:0;
 	width: 100%;
 	z-index: 9999 !important;
-}
-.navbar {
-	margin-bottom: 0px;
 }
 .affix ~ .container-fluid {
 	position: relative;
@@ -159,4 +177,10 @@ nav{
 	-o-background-size: cover;
 	height: 420px;
 	overflow: hidden;
+}
+
+@media (min-width: 768px){
+	.navbar {
+	    border-radius: 0;
+	}
 }
