@@ -216,11 +216,32 @@
 					</div>
 				</div>
 			</article>
-			<article id="reservation">
-				Direcci
+			<article id="address">
+				<h3>Dirección</h3>
+				<div id="map"></div>
 			</article>
 		</section>
+		<footer id="contact" class="contact">
+			<div>
+				
+			</div>			
+		</footer>
 		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script async defer
+				src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6xRlbhJ_VVtvzRf6K5CLhZM_HdQB7yo4&callback=initMap"></script>
+		<script>
+			function initMap() {
+				var uluru = {lat: 10.0674726, lng: -69.358857};
+				var map = new google.maps.Map(document.getElementById('map'), {
+					zoom: 14,
+					center: uluru
+				});
+				var marker = new google.maps.Marker({
+					position: uluru,
+					map: map
+				});
+			}
+		</script>
 	</body>
 </html>
