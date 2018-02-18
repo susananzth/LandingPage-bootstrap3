@@ -228,7 +228,12 @@ a.list-group-item:hover {
 .title-food{
 	display: inline-block;
 }
+#address{
+	background: #fff4f4;
+    padding: 10px;
+}
 #map{
+	border: 10px solid #c99a99;
     height: 400px;
     width: 100%;
 }
