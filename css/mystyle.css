@@ -84,7 +84,7 @@ p {
     border: 0;
     border-radius: 0;
 }
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:visited, .navbar-default .navbar-toggle:active {
     background-color: #943432;
 }
 .navbar-default .navbar-nav>li>a {
@@ -113,10 +113,7 @@ p {
 	top: 50px;
 }
 .navbar-inverse .navbar-brand, .close{
-    color: #e2e0e0;
-}
-.navbar-inverse .navbar-nav>li>a {
-    color: #e2e0e0;
+    color: #fdeaea;
 }
 .close{
 	opacity: 1;
@@ -130,12 +127,12 @@ p {
     border-radius: 0;
 }
 .btn {
-    border: 1px solid #e7c3c3;
+    border: 1px solid #fdeaea;
     border-radius: 0;
 }
 .btn-default:hover, .btn-default:active:focus, .btn-default:active:hover {
     background-color: #ffffff;
-    border-color: #e7c3c3;
+    border-color: #fdeaea;
 }
 .description{
 	background: #fff4f4;
@@ -145,7 +142,7 @@ p {
 }
 .description p{
 	padding: 5px 10px;
-    border: 1px solid #776454;
+    border: 10px solid #c99a99;
 }
 .img-restaurant-left{
 	width: 120px;
@@ -163,22 +160,62 @@ p {
 	top: 70px;
 }
 .menu{
-	background: url("../img/menu02.jpeg")no-repeat center;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	height: 420px;
+	background: #fff4f4;
+    color: #2d2d2d;
+    padding: 10px;
 }
-.menuList{
-	float: left;
+.container-menu{
+	padding: 5px 10px;
+    border: 1px solid #776454;
 }
 .jumbotron-menu{
-	background-color: rgba(255, 255, 255, 0.5);
-	border-radius: 15px;
-	margin-left: 10px;
-	margin-right: 10px;
-	padding-top: 20px;
+	background-color: #c99a99;
+    padding: 10px;
+}
+.panel{
+	border-radius: 0;
+	background-color: #fff4f4;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.panel-group {
+    margin-bottom: 0;
+}
+.panel-group .panel {
+    border-radius: 0;
+}
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #c99a99;
+}
+.panel-heading {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.panel-default>.panel-heading {
+    background-color: #fff4f4;
+}
+.panel-title {
+    font-size: 25px;
+}
+.panel-title>a, .panel-title>a:focus {
+    text-decoration: none;
+}
+.list-group-item:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.list-group-item {
+    background-color: #fff4f4;
+    border: 0;
+}
+a.list-group-item:focus {
+    text-decoration: none;
+    background-color: #fff4f4;
+}
+a.list-group-item:hover {
+    text-decoration: underline;
+    background-color: #fff4f4;
 }
 #map{
     height: 400px;
